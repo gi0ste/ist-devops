@@ -8,9 +8,10 @@ In this example, we cover a simple use case that the Intersight Platform and Ter
 
 1. Adding your Terraform Cloud for Business Tier Credentials
 2. Adding your Terraform Cloud Agent
-3. Define the templkate for the VMs
+3. Setting the tamplete for the creation of VMs
 4. Executing Terraform Code to deploy virtual servers
 
+This use case includes a Terraform Module that is being used to create a number of Vms based on a template. The Terraform module is in the server folder. 
 
 ## Requirements
 
@@ -126,7 +127,7 @@ To execute the Terraform code in your datacenter click on the ***Queue Plan Manu
 ## Results
 
 You will see a couple of servers (virtual machine ) depenting on the number of istance you've configured in the variable instances
-
+![Output](images/output.png)
 ## Related Sandbox
 
 Get hands on experience with Intersight Service for Terraform in DevNet's Sandbox environment.
