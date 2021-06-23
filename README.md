@@ -63,7 +63,7 @@ Two options are available to create a new workspace:
 | vsphere_password | ******** | Sensitive |
 
 
- ![Queue Terraform Plan](images/workspace_vartf.png)
+ ![Queue Terraform Plan](images/workspace_var.png)
 
 ### Configure the servers
 Specify the folllwing variable as Map Object:
